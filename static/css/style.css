@@ -1,0 +1,88 @@
+
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f4f9f4;
+    }
+    
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: white;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+        color: #2c5530;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .subtitle {
+        text-align: center;
+        color: #666;
+        margin-bottom: 30px;
+    }
+    
+    .recorder {
+        text-align: center;
+        margin: 30px 0;
+    }
+    
+    .primary-button {
+        padding: 12px 24px;
+        margin: 0 10px;
+        border: none;
+        border-radius: 25px;
+        background-color: #4CAF50;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+        transition: all 0.3s ease;
+    }
+    
+    .secondary-button {
+        padding: 12px 24px;
+        margin: 0 10px;
+        border: none;
+        border-radius: 25px;
+        background-color: #ff6b6b;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+        transition: all 0.3s ease;
+    }
+    
+    button:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+    }
+    
+    .result {
+        margin-top: 30px;
+        padding: 20px;
+        border: 2px solid #e0e0e0;
+        border-radius: 10px;
+        background-color: #fafafa;
+    }
+    
+    #recordingStatus {
+        margin-top: 15px;
+        color: #666;
+        font-style: italic;
+    }
+    
+    #animalType {
+        font-weight: bold;
+        color: #2c5530;
+        margin-bottom: 10px;
+    }
+    
+    #dialogue {
+        color: #444;
+        line-height: 1.5;
+    }
+    

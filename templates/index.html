@@ -1,0 +1,25 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Habla Jungla - Animal Sound Translator</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <body>
+        <div class="container">
+            <h1>🌴 Habla Jungla 🦁</h1>
+            <p class="subtitle">Your Animal Sound Translator</p>
+            <div class="recorder">
+                <button id="recordButton" class="primary-button">Start Recording</button>
+                <button id="stopButton" class="secondary-button" disabled>Stop Recording</button>
+                <div id="recordingStatus"></div>
+            </div>
+            <div class="result">
+                <div id="animalType"></div>
+                <div id="dialogue"></div>
+            </div>
+        </div>
+        <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    </body>
+    </html>
+    
